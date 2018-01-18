@@ -1,4 +1,7 @@
 # SQL-Org-Chart-Hierarchy-with-Recursive-Query
+
+VIEW THIS AS RAW TO SEE ACCURATE RESULTS!!!
+
 Systems commonly use a link table to match supervisor and subordinate.
 If you are tasked to display an org chart in the front end, you can offload the hierachy calculation 
 to SQL Server via a recursive query.
