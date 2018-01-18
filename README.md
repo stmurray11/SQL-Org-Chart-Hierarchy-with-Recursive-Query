@@ -7,15 +7,15 @@ The recusive query returns this column in the result set, and you can see that
 3 people report to Scott Murray,
 one of them has their own report,
 1 person reports to Wilder Keaton.
-
-Hierarchy 
+ 
+Hierarchy Column
 Anna Chapman
 Joe Less
 Scott Murray
-Scott Murray~~Henry Jones
-Scott Murray~~Henry Jones~~Bill Friday
-Scott Murray~~Joe Henry
-Scott Murray~~Lanny Turnip
+Scott Murray...Henry Jones
+Scott Murray...Henry Jones...Bill Friday
+Scott Murray...Joe Henry
+Scott Murray...Lanny Turnip
 Wilder Keaton
-Wilder Keaton~~Turner Buck
+Wilder Keaton...Turner Buck
  
