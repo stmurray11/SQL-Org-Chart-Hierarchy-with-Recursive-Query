@@ -1,3 +1,5 @@
+--makesure youhaverun sqlToCreateTheTables.sql first!!!
+
 --Run this, and see that 3 people report to Scott Murray in the Hierarchy Column, and one of them has their own report
 --and Wilder Keaton has one report
  WITH OrgChartData AS(  
@@ -34,7 +36,7 @@ STEP 3:
    Run this to make Scott Murray report to Anna Chapman:
       update tAdminAssignment set sReportsToPersonId = 'AC07R07' where sPersonId = 'SM07R07'
    
-   Rerun Step 2, and see that the recursive query attaches Scott Murray's reporting tree to Anna Chapman
+   Rerun Step 2, and see that the recursive query attaches Scott Murray's entire reporting tree to Anna Chapman
    the Hierarchy results changes to:
 Anna Chapman
 Anna Chapman~~Scott Murray
