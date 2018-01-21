@@ -4,12 +4,16 @@ Systems commonly use a link table to match supervisor and subordinate.
 If you are tasked to display an org chart in the front end, you can offload the hierachy calculation 
 to SQL Server via a recursive query.
 
-The recusive query returns this column in the result set, and you can see that
+The recusive query returns the column below in the result set, and you can see that
+
 4 people report to Scott Murray,
+
 one of them has their own report,
+
 and 1 person reports to Wilder Keaton.
+
  
-Hierarchy Column
+[Hierarchy Column]
 
 Anna Chapman
 
