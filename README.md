@@ -6,14 +6,16 @@ to SQL Server via a recursive query.
 
 The recusive query returns the column below in the result set, and you can see that
 
-4 people report to Scott Murray,
+3 people report to Scott Murray,
 
 one of them has their own report,
 
 and 1 person reports to Wilder Keaton.
 
+These results can easily be tranlated into an HMTL table, with no calculation.
+
  
-[Hierarchy Column]
+[Hierarchy Column Result]
 
 Anna Chapman
 
