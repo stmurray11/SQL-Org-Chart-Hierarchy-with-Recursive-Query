@@ -5,9 +5,9 @@ If you are tasked to display an org chart in the front end, you can offload the 
 to SQL Server via a recursive query.
 
 The recusive query returns this column in the result set, and you can see that
-3 people report to Scott Murray,
+4 people report to Scott Murray,
 one of them has their own report,
-1 person reports to Wilder Keaton.
+and 1 person reports to Wilder Keaton.
  
 Hierarchy Column
 
